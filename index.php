@@ -34,42 +34,42 @@ include 'includes/header.php';
         
 
         
-        <form>
+        <form method="post" action="success.php">
         <div class="form-group">
             <label for="name">Full Name of the Trainee</label>
-            <input type="text" class="form-control" id="name" >
+            <input type="text" class="form-control" id="name" name="name" >
            
         </div>
         <div class="form-group">
             <label for="mobile">Phone Number</label>
-            <input type="text" class="form-control" id="mobile" >
+            <input type="text" class="form-control" id="mobile" name="mobile" >
            
         </div>
 
         <div class="form-group">
             <label for="email">Email Address</label>
-            <input type="text" class="form-control" id="email" >
+            <input type="text" class="form-control" id="email" name ="email" >
            
         </div>
 
         <div class="form-group">
             <label for="dob">Date of Birth</label>
-            <input type="Date" class="form-control" id="dob" >
+            <input type="text" class="form-control" id="dob" name="dob" >
            
         </div>
 
         
         <div class="form-group">
             <label for="address">Address</label>
-            <input type="text" class="form-control" id="address" >
+            <input type="text" class="form-control" id="address" name="address" >
 
             
            
         </div>
 
         <div class="form-group">
-            <label for="coachin">Coaching Selection</label>
-            <select class="form-control" id="coaching">
+            <label for="coaching">Coaching Selection</label>
+            <select class="form-control" id="coaching" name="coaching">
             <option>Cricket</option>
             <option>Table Tennis</option>
             <option>Cricket & Table Tennis</option>
