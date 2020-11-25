@@ -6,7 +6,7 @@
 
 <?php
 
-$title = "THIS IS THE  HOME PAGE OF AGRAGAMEE SANGHA";
+$title = "THIS IS THE NEW HOME PAGE OF AGRAGAMEE SANGHA";
 include 'header.php';
 
     echo' <p>I am directed to inform you that since remaining portion of  
