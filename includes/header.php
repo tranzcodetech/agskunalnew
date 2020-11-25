@@ -4,7 +4,7 @@
 <div class="container">
   <!-- Content here -->
 <?php
-echo '<h1>'. $title .'</h1>' ;
+echo '<h1 class="text-center" ><strong>'. $title .'</strong></h1>' ;
 ?>
 
 
